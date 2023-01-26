@@ -58,6 +58,10 @@ header {
     border: 2px solid yellow;
 }
 
+.duck img {
+    width: 300px;
+}
+
 #emergency {
     border: 2px solid blue;
     display: flex;
