@@ -8,12 +8,53 @@
     <title>Document</title>
 </head>
 <body>
-    <nav></nav>
-    <header></header>
+    <nav>
+        <div class="nav-left"><img src="images/rubberduck-logo.jpg" alt="rubberduck logo"></div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#duck">Talk to the duck</a></li>
+                <li><a href="#emergency">Emergency Kit</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="home">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum delectus rerum explicabo amet quam quaerat, possimus eos tempore ut, ad accusantium earum repellat voluptatibus ratione eius fugit saepe aut minima atque quasi perspiciatis fugiat expedita repellendus! Explicabo fuga quibusdam consequatur, error ipsa incidunt hic reiciendis fugit minus saepe nemo inventore enim labore.</p>
+    </header>
     <main>
-        <section id="duck"></section>
-        <section id="emergency"></section>
+        <section id="duck">
+            <div class="text">
+                <h2>Your new best friend</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, non reiciendis ipsa veritatis quod eaque quae consequuntur autem minus cumque?</p>
+            </div>
+            <div class="duck">
+                <a href="somelink"><img src="images/bat-duck.jpg" alt="Batman Rubber Duck"></a>
+            </div>
+        </section>
+        <section id="emergency">
+            <h2>In case of emergency click on:</h2>
+            <div class="grid-container">
+                <a href="https://discordapp.com/channels/641221910146842644/641593560394760200">Discord<div class="grid-item"></div></a>
+                <a href="https://stackoverflow.com/"><div class="grid-item">Stack Overflow</div></a>
+                <a href="https://developer.mozilla.org"><div class="grid-item">MDN</div></a>
+                <a href="https://www.w3schools.com/"><div class="grid-item">W3</div></a>
+                <a href="https://medium.com/"><div class="grid-item">Medium</div></a>
+                <a href="https://www.codenewbie.org/podcast"><div class="grid-item">Podcast</div></a>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer id="contact">
+        <h2>Contact us</h2>
+        <form>
+            <input type="text"/>
+            <textarea rows="10" cols="30"></textarea>
+            <button>Submit</button>
+        </form>
+        <div>Proudly created by <em>Anja</em> 
+            <a href="https://github.com/alfarrobeira"><img src="images/github-300x300.png" alt="github icon"></a>
+        </div>
+    </footer>
 </body>
 </html>
