@@ -20,7 +20,8 @@ nav {
     background-color: #D61355;
     padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .nav-left {
@@ -38,6 +39,7 @@ nav {
 
 .nav-right a {
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
     color: pink;
@@ -58,12 +60,17 @@ ul {
 }
 
 header {
-    width: 70%;
     padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     line-height: 1.3em;
+}
+
+header p {
+    width: 70%;
+    margin: 1.1em auto;
 }
 
 #duck {
